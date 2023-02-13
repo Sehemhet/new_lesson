@@ -1,9 +1,11 @@
 # created by virtualenv automatically
 *settings.py
 **/venv
-!.gitignore
 **/keys
 *key
 *key.pub
 key
 key.pub
+
+!.gitignore
+
