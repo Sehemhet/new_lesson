@@ -3,3 +3,5 @@
 **/venv
 !.gitignore
 **/keys
+*key
+*key.pub
