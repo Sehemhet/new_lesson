@@ -6,6 +6,10 @@
 *key.pub
 key
 key.pub
+**/.ssh
+*id_rsa
+*.DS_Store
+
 
 !.gitignore
 
