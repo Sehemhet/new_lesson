@@ -1,0 +1,21 @@
+{% load static %}
+
+<div class="footer">
+  <div class="in_footer">
+
+{% for el in footer %}
+
+    <div class="box_footer">
+      <div class="in_box_footer">
+        <a href="{{ el.url }}"></a>
+        <img src="{{ el.icon.url }}" alt="">
+      </div>
+      <div class="text_box_footer">
+        <p>{{ el.name }}</p>
+      </div>
+    </div>
+
+{% endfor %}
+
+  </div>
+</div>
